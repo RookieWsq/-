@@ -116,7 +116,7 @@ class imageFlipOverView: UIView {
         
         
     }
-    
+    // 结束翻转的动画
     func flipAnimation(_ flipOverView : UIImageView,transform : CATransform3D){
         UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: [], animations: {
             flipOverView.layer.transform = CATransform3DRotate(transform, 0, 1, 0, 0)
