@@ -35,7 +35,7 @@ class imageFlipOverView: UIView {
         return imageVIew
     }()
     
-    override func awakeFromNib() {
+    override func awakeFromNib() {      //
         super.awakeFromNib()
         self.backgroundColor = .clear
         setupImage()
